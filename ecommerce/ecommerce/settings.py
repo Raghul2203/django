@@ -97,12 +97,12 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dj_r_ecommerce',
-        'USER':'root',
-        'PASSWORD':'220303',
-        'HOST':'localhost',
-        'PORT':'3306'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER':'postgres.jxuqqhtaqteledgkgxoq',
+        'PASSWORD':'Qh1r1lTmwMF2j8re',
+        'HOST':'aws-0-ap-south-1.pooler.supabase.com',
+        'PORT':'6543'
     }
 }
 
